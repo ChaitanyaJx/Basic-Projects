@@ -1,6 +1,5 @@
 ## C-Program
-This is **C++** Number Guesser game. Also contains **Python Program** Created to learn Git and Github.
-### Example
+This is **C++** Number Guesser game. Also contains **Python Program**.
 ```
 Guess a number between 100 and 999 within 10 attempts!
 Goodluck!
