@@ -1,5 +1,6 @@
 ## C-Program
 This is **C++** Number Guesser game. Also contains **Python Program**.
+### Example Output
 ```
 Guess a number between 100 and 999 within 10 attempts!
 Goodluck!
