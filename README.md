@@ -54,7 +54,7 @@ def decimal_to_binary(x):
     return conversion(x)
 ```
 
-## Progra, 3: Binary to Decimal
+## Program 3: Binary to Decimal
 Exact Reverse of Project 2 that is to convert binary code to decimal.
 
 ### Example
