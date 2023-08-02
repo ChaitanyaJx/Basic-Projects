@@ -32,3 +32,24 @@ Attempt No. 9
 Put your input: 746
 You won!
 ```
+## Project 2: Decimal to Binary
+Program that converts decimal number to binary while using recursive function
+### Example Output
+```
+Input: 5
+Ouput: 101
+
+Input: 9
+Output: 1001
+```
+Python Code for better understanding:
+```
+def decimal_to_binary(x):
+    def conversion(x):
+        if x == 1:
+            return [x]
+        else:
+            return conversion(x // 2) + [x % 2]
+    
+    return conversion(x)
+```
