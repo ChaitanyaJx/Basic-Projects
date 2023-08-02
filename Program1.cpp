@@ -2,10 +2,9 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
-using namespace std;
 
 int main() {
-    cout << "Guess a number between 100 and 999 within 10 attempts!" << endl << "Goodluck!" << endl;
+    std::cout << "Guess a number between 100 and 999 within 10 attempts!" << std::endl << "Goodluck!" << std::endl;
     srand(time(0));
     int x;
 
@@ -13,7 +12,7 @@ int main() {
     x = rand() % 1000;
     } while (x < 100);
  
-    string guess = to_string(x);
+    std::string guess = std::to_string(x);
 
     char* guess_array = new char[guess.length() + 1];
 
@@ -24,14 +23,14 @@ int main() {
     }
     for(int i=0; i <= 10; i++){
         if(i == 10){
-            cout << "You lost! the number was: " << guess << "Try again next time!" << endl;
+            std::cout << "You lost! the number was: " << guess << "Try again next time!" << std::endl;
             break;
         }
-        cout << "Attempt No. " << i + 1 << endl;
+        std::cout << "Attempt No. " << i + 1 << std::endl;
         int user;
-        cout << "Put your input: ";
-        cin >> user;
-        string guess_user = to_string(user);
+        std::cout << "Put your input: ";
+        std::cin >> user;
+        std::string guess_user = std::to_string(user);
     
         char* user_array = new char[guess_user.length() + 1];
         user_array[guess_user.length()] = '\0';
@@ -46,17 +45,17 @@ int main() {
         }
         }
         if(count == 3){
-            cout << "You won!" << endl;
+            std::cout << "You won!" << std::endl;
             break;
         }
         else if( count == 2){
-            cout << "Only two digits are correct." << endl;
+            std::cout << "Only two digits are correct." << std::endl;
         }
         else if( count == 1){
-            cout << "Only 1 digit is correct" << endl;
+            std::cout << "Only 1 digit is correct" << std::endl;
         }
         else{
-            cout << "None of the digit is correct! Try again!" << endl;
+            std::cout << "None of the digit is correct! Try again!" << std::endl;
         }
 
     }
