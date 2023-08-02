@@ -42,3 +42,14 @@ Ouput: 101
 Input: 9
 Output: 1001
 ```
+Python Code for better understanding:
+```
+def decimal_to_binary(x):
+    def conversion(x):
+        if x == 1:
+            return [x]
+        else:
+            return conversion(x // 2) + [x % 2]
+    
+    return conversion(x)
+```
