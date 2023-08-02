@@ -32,3 +32,13 @@ Attempt No. 9
 Put your input: 746
 You won!
 ```
+## Project 2: Decimal to Binary
+Program that converts decimal number to binary while using recursive function
+### Example Output
+```
+Input: 5
+Ouput: 101
+
+Input: 9
+Output: 1001
+```
