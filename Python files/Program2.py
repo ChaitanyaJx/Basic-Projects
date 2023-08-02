@@ -8,6 +8,6 @@ def decimal_to_binary(x):
     
     return conversion(x)
 
-x = int(input())
+x = int(input("Input: "))
 result = decimal_to_binary(x)
-print(result)
+print("Output: ", result)

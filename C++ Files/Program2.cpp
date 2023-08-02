@@ -18,8 +18,10 @@ std::vector<int> decimal_to_binary(int x){
 
 int main(){
     int x;
+    std::cout << "Input: ";
     std::cin >> x;
     std::vector<int> result = decimal_to_binary(x);
+    std::cout << "Output: ";
     for(int digit : result){
         std::cout << digit;
     }

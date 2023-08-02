@@ -1,4 +1,4 @@
-## Project 1: Number Guesser.
+## Program 1: Number Guesser.
 This is **C++** Number Guesser game. Also contains **Python** equivalent.
 ### Example Output
 ```
@@ -32,7 +32,7 @@ Attempt No. 9
 Put your input: 746
 You won!
 ```
-## Project 2: Decimal to Binary
+## Program 2: Decimal to Binary
 Program that converts decimal number to binary while using recursive function
 ### Example Output
 ```
@@ -52,4 +52,24 @@ def decimal_to_binary(x):
             return conversion(x // 2) + [x % 2]
     
     return conversion(x)
+```
+
+## Progra, 3: Binary to Decimal
+Exact Reverse of Project 2 that is to convert binary code to decimal.
+
+### Example
+```
+Input: 1000 1100
+Output: 140
+```
+Python code:
+```
+string = input("Input:")
+cout = len(string) - 1
+sum_string = 0
+for i in string:
+    sum_string = sum_string + int(i) * (2** cout)
+    cout = cout - 1
+
+print("Output: ", sum_string)
 ```
