@@ -1,4 +1,4 @@
-## C-Program
+## Project 1: Number Guesser.
 This is **C++** Number Guesser game. Also contains **Python** equivalent.
 ### Example Output
 ```
