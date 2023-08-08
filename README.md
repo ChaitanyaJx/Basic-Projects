@@ -73,3 +73,27 @@ for i in string:
 
 print("Output: ", sum_string)
 ```
+### Program 4: 
+
+Outputs to nth Fibonacci numbers.
+### Example
+```
+Input: 20
+Output: 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765
+```
+Python code:
+```
+n = int(input("Upto how many Fibonacci numbers you want: "))
+fibonacci_list = [0] * n
+fibonacci_list[0] = 1
+fibonacci_list[1] = 1
+
+for i in range(2, n):
+    fibonacci_list[i] = fibonacci_list[i-1] + fibonacci_list[i-2]
+
+print("Fibonacci numbers are:")
+for num in fibonacci_list:
+    print(num, end=" ")
+
+print()
+```
