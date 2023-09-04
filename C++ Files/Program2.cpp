@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 std::vector<int> conversion(int x){
     if(x == 1){
         return {x};

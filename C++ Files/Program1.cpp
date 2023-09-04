@@ -1,7 +1,4 @@
-#include <iostream>
-#include <string>
-#include <cstdlib>
-#include <ctime>
+#include <bits/stdc++.h>
 
 int main() {
     std::cout << "Guess a number between 100 and 999 within 10 attempts!" << std::endl << "Goodluck!" << std::endl;
